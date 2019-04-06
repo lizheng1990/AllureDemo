@@ -1,0 +1,1702 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 8 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\leez\AppData\Local\Temp\testng-eclipse--1533175942\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">56 methods, 8 failed,   48 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&amp;password=ADMI...)">f(, , 密码小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=ADMI...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=MASTER&amp;password=mas...)">f(, , 密码大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=MASTER&password=mas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ADMIN&amp;password=adm...)">f(, , 用户名小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ADMIN&password=adm...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=+, , ass...)">f(, , 密码为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+, , ass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名存在特殊符号：&amp;, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;&amp;password=1...)">f(, , 用户名存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&&password=1...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码存在特殊符号：&amp;, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123...)">f(, , 密码存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456,...)">f(, , 密码为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=master&amp;password=MA...)">f(, , 用户名大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=master&password=MA...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te&amp;password=123456, ,...)">f(, , 用户名长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te&password=123456, ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=1234567890123456&amp;pas...)">f(, , 用户名长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=1234567890123456&pas...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123+456...)">f(, , 密码中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123+456...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;pass...)">f(, , 密码为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名和密码填反, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&amp;password=test...)">f(, , 用户名和密码填反, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=test...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 多添加一个字段key=value, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test2&amp;passwo...)">f(, , 多添加一个字段key=value, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test2&passwo...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456...)">f(, , 密码长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码SQL注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=test&#039;+...)">f(, , 密码SQL注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=test'+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te+st1&amp;password=12345...)">f(, , 用户名中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te+st1&password=12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456...)">f(, , 密码长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 全角输入用户名, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ｔｅｓｔ１&amp;password=123456...)">f(, , 全角输入用户名, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ｔｅｓｔ１&password=123456...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+&amp;password=123456, , a...)">f(, , 用户名为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+&password=123456, , a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=+123456...)">f(, , 密码前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+123456...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&amp;password=12345...)">f(, , 用户名为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=null&amp;password=123...)">f(, , 用户名为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=null&password=123...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1★&amp;password=...)">f(, , 用户名存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1★&password=...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ABCDEF&amp;password=123...)">f(, , 用户名为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ABCDEF&password=123...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456密...)">f(, , 密码存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456密...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名SQl注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test%27+or+1%3D1+%23...)">f(, , 用户名SQl注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test%27+or+1%3D1+%23...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=ABCDE...)">f(, , 密码为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=ABCDE...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名和密码正确, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12345...)">f(, , 用户名和密码正确, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456+...)">f(, , 密码后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456+...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=------&amp;password=1234...)">f(, , 用户名为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=------&password=1234...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test&amp;password=123456,...)">f(, , 用户名长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test&password=123456,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456789012345&amp;pass...)">f(, , 用户名长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456789012345&pass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test用户名&amp;password=1234...)">f(, , 用户名存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test用户名&password=1234...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abCD56_-&amp;...)">f(, , 用户名为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abCD56_-&...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12...)">f(, , 密码存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456...)">f(, , 密码长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=abcde...)">f(, , 密码为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=abcde...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123, , ...)">f(, , 密码长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123, , ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12, , a...)">f(, , 密码长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12, , a...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=______&amp;password=1234...)">f(, , 用户名为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=______&password=1234...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 全角输入密码, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=１２３４５６,...)">f(, , 全角输入密码, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=１２３４５６,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=______...)">f(, , 密码为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=______...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1+&amp;password=12345...)">f(, , 用户名后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1+&password=12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=1234, ,...)">f(, , 密码长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=1234, ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=12345678901234567&amp;pa...)">f(, , 用户名长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=12345678901234567&pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=------...)">f(, , 密码为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=------...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+test1&amp;password=12345...)">f(, , 用户名前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+test1&password=12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test123456789012345...)">f(, , 用户名为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test123456789012345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=&amp;password=123456, , ass...)">f(, , 用户名为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=&password=123456, , ass...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=, , asser...)">f(, , 密码为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=, , asser...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=tes&amp;password=123456, ...)">f(, , 用户名长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=tes&password=123456, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=nul...)">f(, , 密码为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=nul...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abcdef&amp;password=123...)">f(, , 用户名为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abcdef&password=123...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 用户名和密码不匹配, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&amp;password=1234...)">f(, , 用户名和密码不匹配, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=1234...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="my.company.TestLogin" hash-for-method="f(, , 密码为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12345...)">f(, , 密码为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">my.company.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&amp;password=ADMI...)">
+                  </a> <!-- f(, , 密码小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=ADMI...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=ADMIN, , assertEqual, $.status, 4002, , , 49)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4002] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=MASTER&amp;password=mas...)">
+                  </a> <!-- f(, , 密码大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=MASTER&password=mas...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=MASTER&password=master, , assertEqual, $.status, 4002, , , 48)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4002] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ADMIN&amp;password=adm...)">
+                  </a> <!-- f(, , 用户名小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ADMIN&password=adm...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ADMIN&password=admin, , assertEqual, $.status, 4002, , , 47)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4002] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=+, , ass...)">
+                  </a> <!-- f(, , 密码为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+, , ass...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+, , assertEqual, $.status, 4003, , , 40)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4003] but found [4000]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名存在特殊符号：&amp;, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;&amp;password=1...)">
+                  </a> <!-- f(, , 用户名存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&&password=1...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&&password=123456, , assertEqual, $.status, 4003, , , 14)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4003] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码存在特殊符号：&amp;, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123...)">
+                  </a> <!-- f(, , 密码存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456&, , assertEqual, $.status, 4003, , , 23)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4003] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456,...)">
+                  </a> <!-- f(, , 密码为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456, , assertEqual, $.status, 4002, , , 25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4002] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=master&amp;password=MA...)">
+                  </a> <!-- f(, , 用户名大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=master&password=MA...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=master&password=MASTER, , assertEqual, $.status, 4002, , , 46)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [4002] but found [200]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at my.company.TestLogin.f(TestLogin.java:27)
+	at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">my.company.TestLogin</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te&amp;password=123456, ,...)">
+                  </a> <!-- f(, , 用户名长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te&password=123456, ,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te&password=123456, , assertEqual, $.status, 4001, , , 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=1234567890123456&amp;pas...)">
+                  </a> <!-- f(, , 用户名长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=1234567890123456&pas...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=1234567890123456&password=123456, , assertEqual, $.status, 4002, , , 5)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123+456...)">
+                  </a> <!-- f(, , 密码中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123+456...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123+456, , assertEqual, $.status, 4003, , , 42)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;pass...)">
+                  </a> <!-- f(, , 密码为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&pass...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=abCD56_-, , assertEqual, $.status, 4002, , , 30)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名和密码填反, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&amp;password=test...)">
+                  </a> <!-- f(, , 用户名和密码填反, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=test...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名和密码填反, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=test1, , assertEqual, $.status, 4002, , , 45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 多添加一个字段key=value, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test2&amp;passwo...)">
+                  </a> <!-- f(, , 多添加一个字段key=value, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test2&passwo...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 多添加一个字段key=value, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test2&password=123456&key=value, , assertEqual, $.status, 200, , , 31)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456...)">
+                  </a> <!-- f(, , 密码长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345678901234567, , assertEqual, $.status, 4001, , , 12)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码SQL注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=test&#039;+...)">
+                  </a> <!-- f(, , 密码SQL注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=test'+...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码SQL注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=test'+or+1%3D1+%23, , assertEqual, $.status, 4003, , , 55)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te+st1&amp;password=12345...)">
+                  </a> <!-- f(, , 用户名中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te+st1&password=12345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te+st1&password=123456, , assertEqual, $.status, 4003, , , 36)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456...)">
+                  </a> <!-- f(, , 密码长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=1234567890123456, , assertEqual, $.status, 4002, , , 11)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 全角输入用户名, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ｔｅｓｔ１&amp;password=123456...)">
+                  </a> <!-- f(, , 全角输入用户名, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ｔｅｓｔ１&password=123456...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 全角输入用户名, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ｔｅｓｔ１&password=123456, , assertEqual, $.status, 4003, , , 52)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+&amp;password=123456, , a...)">
+                  </a> <!-- f(, , 用户名为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+&password=123456, , a...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+&password=123456, , assertEqual, $.status, 4000, , , 34)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=+123456...)">
+                  </a> <!-- f(, , 密码前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+123456...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+123456, , assertEqual, $.status, 4003, , , 41)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&amp;password=12345...)">
+                  </a> <!-- f(, , 用户名为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=12345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=123456, , assertEqual, $.status, 4002, , , 16)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=null&amp;password=123...)">
+                  </a> <!-- f(, , 用户名为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=null&password=123...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=null&password=123456, , assertEqual, $.status, 4002, , , 33)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1★&amp;password=...)">
+                  </a> <!-- f(, , 用户名存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1★&password=...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1★&password=123456, , assertEqual, $.status, 4003, , , 15)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ABCDEF&amp;password=123...)">
+                  </a> <!-- f(, , 用户名为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ABCDEF&password=123...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ABCDEF&password=123456, , assertEqual, $.status, 4002, , , 18)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456密...)">
+                  </a> <!-- f(, , 密码存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456密...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456密码, , assertEqual, $.status, 4003, , , 22)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名SQl注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test%27+or+1%3D1+%23...)">
+                  </a> <!-- f(, , 用户名SQl注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test%27+or+1%3D1+%23...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名SQl注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test%27+or+1%3D1+%23&password=123456, , assertEqual, $.status, 4003, , , 54)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=ABCDE...)">
+                  </a> <!-- f(, , 密码为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=ABCDE...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=ABCDEF, , assertEqual, $.status, 4002, , , 27)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名和密码正确, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12345...)">
+                  </a> <!-- f(, , 用户名和密码正确, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名和密码正确, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456, , assertEqual, $.status, 200, , , 56)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456+...)">
+                  </a> <!-- f(, , 密码后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456+...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456+, , assertEqual, $.status, 4003, , , 43)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=------&amp;password=1234...)">
+                  </a> <!-- f(, , 用户名为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=-&password=1234...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=------&password=123456, , assertEqual, $.status, 4002, , , 20)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test&amp;password=123456,...)">
+                  </a> <!-- f(, , 用户名长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test&password=123456,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test&password=123456, , assertEqual, $.status, 4002, , , 3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456789012345&amp;pass...)">
+                  </a> <!-- f(, , 用户名长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456789012345&pass...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456789012345&password=123456, , assertEqual, $.status, 4002, , , 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test用户名&amp;password=1234...)">
+                  </a> <!-- f(, , 用户名存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test用户名&password=1234...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test用户名&password=123456, , assertEqual, $.status, 4003, , , 13)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abCD56_-&amp;...)">
+                  </a> <!-- f(, , 用户名为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abCD56_-&...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abCD56_-&password=123456, , assertEqual, $.status, 4002, , , 21)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12...)">
+                  </a> <!-- f(, , 密码存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456★, , assertEqual, $.status, 4003, , , 24)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123456...)">
+                  </a> <!-- f(, , 密码长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456789012345, , assertEqual, $.status, 4002, , , 10)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=abcde...)">
+                  </a> <!-- f(, , 密码为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=abcde...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=abcdef, , assertEqual, $.status, 4002, , , 26)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=123, , ...)">
+                  </a> <!-- f(, , 密码长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123, , ...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123, , assertEqual, $.status, 4002, , , 8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12, , a...)">
+                  </a> <!-- f(, , 密码长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12, , a...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12, , assertEqual, $.status, 4001, , , 7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=______&amp;password=1234...)">
+                  </a> <!-- f(, , 用户名为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=______&password=1234...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=______&password=123456, , assertEqual, $.status, 4002, , , 19)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 全角输入密码, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=１２３４５６,...)">
+                  </a> <!-- f(, , 全角输入密码, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=１２３４５６,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 全角输入密码, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=１２３４５６, , assertEqual, $.status, 4003, , , 53)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=______...)">
+                  </a> <!-- f(, , 密码为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=______...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=______, , assertEqual, $.status, 4002, , , 28)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1+&amp;password=12345...)">
+                  </a> <!-- f(, , 用户名后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1+&password=12345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1+&password=123456, , assertEqual, $.status, 4003, , , 37)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=1234, ,...)">
+                  </a> <!-- f(, , 密码长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=1234, ,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=1234, , assertEqual, $.status, 4002, , , 9)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=12345678901234567&amp;pa...)">
+                  </a> <!-- f(, , 用户名长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=12345678901234567&pa...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=12345678901234567&password=123456, , assertEqual, $.status, 4001, , , 6)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=------...)">
+                  </a> <!-- f(, , 密码为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=-...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=------, , assertEqual, $.status, 4002, , , 29)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+test1&amp;password=12345...)">
+                  </a> <!-- f(, , 用户名前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+test1&password=12345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+test1&password=123456, , assertEqual, $.status, 4003, , , 35)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test123456789012345...)">
+                  </a> <!-- f(, , 用户名为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test123456789012345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890&password=123456, , assertEqual, $.status, 4001, , , 50)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=&amp;password=123456, , ass...)">
+                  </a> <!-- f(, , 用户名为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=&password=123456, , ass...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=&password=123456, , assertEqual, $.status, 4000, , , 32)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=, , asser...)">
+                  </a> <!-- f(, , 密码为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=, , asser...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=, , assertEqual, $.status, 4000, , , 38)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=tes&amp;password=123456, ...)">
+                  </a> <!-- f(, , 用户名长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=tes&password=123456, ...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=tes&password=123456, , assertEqual, $.status, 4002, , , 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=nul...)">
+                  </a> <!-- f(, , 密码为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=nul...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=null, , assertEqual, $.status, 4002, , , 39)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abcdef&amp;password=123...)">
+                  </a> <!-- f(, , 用户名为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abcdef&password=123...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abcdef&password=123456, , assertEqual, $.status, 4002, , , 17)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 用户名和密码不匹配, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&amp;password=1234...)">
+                  </a> <!-- f(, , 用户名和密码不匹配, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=1234...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 用户名和密码不匹配, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=123456, , assertEqual, $.status, 4002, , , 44)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(, , 密码为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&amp;password=12345...)">
+                  </a> <!-- f(, , 密码为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(, , 密码为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890, , assertEqual, $.status, 4001, , , 51)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\leez\AppData\Local\Temp\testng-eclipse--1533175942\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;my.company.TestLogin&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(56);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'f')
+data.setCell(0, 2, 'my.company.TestLogin')
+data.setCell(0, 3, 570);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'f')
+data.setCell(1, 2, 'my.company.TestLogin')
+data.setCell(1, 3, 277);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'f')
+data.setCell(2, 2, 'my.company.TestLogin')
+data.setCell(2, 3, 204);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'f')
+data.setCell(3, 2, 'my.company.TestLogin')
+data.setCell(3, 3, 195);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'f')
+data.setCell(4, 2, 'my.company.TestLogin')
+data.setCell(4, 3, 194);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'f')
+data.setCell(5, 2, 'my.company.TestLogin')
+data.setCell(5, 3, 193);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'f')
+data.setCell(6, 2, 'my.company.TestLogin')
+data.setCell(6, 3, 193);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'f')
+data.setCell(7, 2, 'my.company.TestLogin')
+data.setCell(7, 3, 192);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'f')
+data.setCell(8, 2, 'my.company.TestLogin')
+data.setCell(8, 3, 190);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'f')
+data.setCell(9, 2, 'my.company.TestLogin')
+data.setCell(9, 3, 188);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'f')
+data.setCell(10, 2, 'my.company.TestLogin')
+data.setCell(10, 3, 187);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'f')
+data.setCell(11, 2, 'my.company.TestLogin')
+data.setCell(11, 3, 187);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'f')
+data.setCell(12, 2, 'my.company.TestLogin')
+data.setCell(12, 3, 187);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'f')
+data.setCell(13, 2, 'my.company.TestLogin')
+data.setCell(13, 3, 187);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'f')
+data.setCell(14, 2, 'my.company.TestLogin')
+data.setCell(14, 3, 186);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'f')
+data.setCell(15, 2, 'my.company.TestLogin')
+data.setCell(15, 3, 185);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'f')
+data.setCell(16, 2, 'my.company.TestLogin')
+data.setCell(16, 3, 183);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'f')
+data.setCell(17, 2, 'my.company.TestLogin')
+data.setCell(17, 3, 181);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'f')
+data.setCell(18, 2, 'my.company.TestLogin')
+data.setCell(18, 3, 181);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'f')
+data.setCell(19, 2, 'my.company.TestLogin')
+data.setCell(19, 3, 180);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'f')
+data.setCell(20, 2, 'my.company.TestLogin')
+data.setCell(20, 3, 180);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'f')
+data.setCell(21, 2, 'my.company.TestLogin')
+data.setCell(21, 3, 180);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'f')
+data.setCell(22, 2, 'my.company.TestLogin')
+data.setCell(22, 3, 179);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'f')
+data.setCell(23, 2, 'my.company.TestLogin')
+data.setCell(23, 3, 178);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'f')
+data.setCell(24, 2, 'my.company.TestLogin')
+data.setCell(24, 3, 178);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'f')
+data.setCell(25, 2, 'my.company.TestLogin')
+data.setCell(25, 3, 177);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'f')
+data.setCell(26, 2, 'my.company.TestLogin')
+data.setCell(26, 3, 176);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'f')
+data.setCell(27, 2, 'my.company.TestLogin')
+data.setCell(27, 3, 175);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'f')
+data.setCell(28, 2, 'my.company.TestLogin')
+data.setCell(28, 3, 175);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'f')
+data.setCell(29, 2, 'my.company.TestLogin')
+data.setCell(29, 3, 169);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'f')
+data.setCell(30, 2, 'my.company.TestLogin')
+data.setCell(30, 3, 168);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'f')
+data.setCell(31, 2, 'my.company.TestLogin')
+data.setCell(31, 3, 162);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'f')
+data.setCell(32, 2, 'my.company.TestLogin')
+data.setCell(32, 3, 162);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'f')
+data.setCell(33, 2, 'my.company.TestLogin')
+data.setCell(33, 3, 140);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'f')
+data.setCell(34, 2, 'my.company.TestLogin')
+data.setCell(34, 3, 132);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'f')
+data.setCell(35, 2, 'my.company.TestLogin')
+data.setCell(35, 3, 131);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'f')
+data.setCell(36, 2, 'my.company.TestLogin')
+data.setCell(36, 3, 128);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'f')
+data.setCell(37, 2, 'my.company.TestLogin')
+data.setCell(37, 3, 127);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'f')
+data.setCell(38, 2, 'my.company.TestLogin')
+data.setCell(38, 3, 126);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'f')
+data.setCell(39, 2, 'my.company.TestLogin')
+data.setCell(39, 3, 124);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'f')
+data.setCell(40, 2, 'my.company.TestLogin')
+data.setCell(40, 3, 124);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'f')
+data.setCell(41, 2, 'my.company.TestLogin')
+data.setCell(41, 3, 124);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'f')
+data.setCell(42, 2, 'my.company.TestLogin')
+data.setCell(42, 3, 124);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'f')
+data.setCell(43, 2, 'my.company.TestLogin')
+data.setCell(43, 3, 124);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'f')
+data.setCell(44, 2, 'my.company.TestLogin')
+data.setCell(44, 3, 123);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'f')
+data.setCell(45, 2, 'my.company.TestLogin')
+data.setCell(45, 3, 122);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'f')
+data.setCell(46, 2, 'my.company.TestLogin')
+data.setCell(46, 3, 122);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'f')
+data.setCell(47, 2, 'my.company.TestLogin')
+data.setCell(47, 3, 122);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'f')
+data.setCell(48, 2, 'my.company.TestLogin')
+data.setCell(48, 3, 122);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'f')
+data.setCell(49, 2, 'my.company.TestLogin')
+data.setCell(49, 3, 122);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'f')
+data.setCell(50, 2, 'my.company.TestLogin')
+data.setCell(50, 3, 122);
+data.setCell(51, 0, 51)
+data.setCell(51, 1, 'f')
+data.setCell(51, 2, 'my.company.TestLogin')
+data.setCell(51, 3, 121);
+data.setCell(52, 0, 52)
+data.setCell(52, 1, 'f')
+data.setCell(52, 2, 'my.company.TestLogin')
+data.setCell(52, 3, 120);
+data.setCell(53, 0, 53)
+data.setCell(53, 1, 'f')
+data.setCell(53, 2, 'my.company.TestLogin')
+data.setCell(53, 3, 119);
+data.setCell(54, 0, 54)
+data.setCell(54, 1, 'f')
+data.setCell(54, 2, 'my.company.TestLogin')
+data.setCell(54, 3, 116);
+data.setCell(55, 0, 55)
+data.setCell(55, 1, 'f')
+data.setCell(55, 2, 'my.company.TestLogin')
+data.setCell(55, 3, 113);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">my.company.TestLogin</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te&password=123456, ,...)</span>
+                <span class="method-start">1629 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=tes&password=123456, ...)</span>
+                <span class="method-start">2573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test&password=123456,...)</span>
+                <span class="method-start">2763 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456789012345&pass...)</span>
+                <span class="method-start">2975 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=1234567890123456&pas...)</span>
+                <span class="method-start">3191 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=12345678901234567&pa...)</span>
+                <span class="method-start">3399 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码长度为2, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12, , a...)</span>
+                <span class="method-start">3531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码长度为3, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123, , ...)</span>
+                <span class="method-start">3667 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码长度为4, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=1234, ,...)</span>
+                <span class="method-start">3872 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码长度为15, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...)</span>
+                <span class="method-start">4073 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码长度为16, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...)</span>
+                <span class="method-start">4258 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码长度为17, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456...)</span>
+                <span class="method-start">4448 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test用户名&password=1234...)</span>
+                <span class="method-start">4573 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 用户名存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&&password=1...)</span>
+                <span class="method-start">4698 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1★&password=...)</span>
+                <span class="method-start">4897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=12345...)</span>
+                <span class="method-start">5025 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abcdef&password=123...)</span>
+                <span class="method-start">5234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ABCDEF&password=123...)</span>
+                <span class="method-start">5424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=______&password=1234...)</span>
+                <span class="method-start">5644 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=------&password=1234...)</span>
+                <span class="method-start">5824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=abCD56_-&...)</span>
+                <span class="method-start">6014 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码存在中文, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456密...)</span>
+                <span class="method-start">6196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 密码存在特殊符号：&, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123...)</span>
+                <span class="method-start">6324 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码存在emoji：★, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12...)</span>
+                <span class="method-start">6497 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 密码为纯数字, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456,...)</span>
+                <span class="method-start">6620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为纯小写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=abcde...)</span>
+                <span class="method-start">6805 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为纯大写字母, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=ABCDE...)</span>
+                <span class="method-start">6983 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为纯符号_, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=______...)</span>
+                <span class="method-start">7166 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为纯符号-, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=------...)</span>
+                <span class="method-start">7336 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为字母数字和符号_-组成的字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&pass...)</span>
+                <span class="method-start">7528 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 多添加一个字段key=value, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test2&passwo...)</span>
+                <span class="method-start">7706 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=&password=123456, , ass...)</span>
+                <span class="method-start">7888 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=null&password=123...)</span>
+                <span class="method-start">8012 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+&password=123456, , a...)</span>
+                <span class="method-start">8192 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=+test1&password=12345...)</span>
+                <span class="method-start">8313 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=te+st1&password=12345...)</span>
+                <span class="method-start">8436 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1+&password=12345...)</span>
+                <span class="method-start">8558 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为空, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=, , asser...)</span>
+                <span class="method-start">8672 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为字符串null, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=nul...)</span>
+                <span class="method-start">8799 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 密码为空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+, , ass...)</span>
+                <span class="method-start">8982 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码前有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=+123456...)</span>
+                <span class="method-start">9113 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码中有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123+456...)</span>
+                <span class="method-start">9242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码后有空格, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=123456+...)</span>
+                <span class="method-start">9373 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名和密码不匹配, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=1234...)</span>
+                <span class="method-start">9514 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名和密码填反, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=123456&password=test...)</span>
+                <span class="method-start">9687 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 用户名大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=master&password=MA...)</span>
+                <span class="method-start">9871 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 用户名小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ADMIN&password=adm...)</span>
+                <span class="method-start">10035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 密码大写字母变小写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=MASTER&password=mas...)</span>
+                <span class="method-start">10218 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">f(, , 密码小写字母变大写, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=admin&password=ADMI...)</span>
+                <span class="method-start">10414 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test123456789012345...)</span>
+                <span class="method-start">10616 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码为超长字符串, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345...)</span>
+                <span class="method-start">10749 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 全角输入用户名, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=ｔｅｓｔ１&password=123456...)</span>
+                <span class="method-start">10880 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 全角输入密码, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=１２３４５６,...)</span>
+                <span class="method-start">11013 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名SQl注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test%27+or+1%3D1+%23...)</span>
+                <span class="method-start">11139 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 密码SQL注入, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=test'+...)</span>
+                <span class="method-start">11265 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(, , 用户名和密码正确, PostRequest, http://47.100.184.129:8888/Login/LoginPage, username=test1&password=12345...)</span>
+                <span class="method-start">11394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">11749 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

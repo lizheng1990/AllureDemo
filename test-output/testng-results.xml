@@ -1,0 +1,4318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="8" ignored="0" total="56" passed="48">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10139" started-at="2019-04-06T08:53:04Z" finished-at="2019-04-06T08:53:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10139" started-at="2019-04-06T08:53:04Z" finished-at="2019-04-06T08:53:14Z">
+      <class name="my.company.TestLogin">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:my.company.TestLogin@4e76dac]" name="beforeSuite" is-config="true" duration-ms="1540" started-at="2019-04-06T08:53:02Z" finished-at="2019-04-06T08:53:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="570" started-at="2019-04-06T08:53:04Z" data-provider="dp" finished-at="2019-04-06T08:53:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名长度为2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=te&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="179" started-at="2019-04-06T08:53:05Z" data-provider="dp" finished-at="2019-04-06T08:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名长度为3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=tes&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="186" started-at="2019-04-06T08:53:05Z" data-provider="dp" finished-at="2019-04-06T08:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名长度为4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="194" started-at="2019-04-06T08:53:05Z" data-provider="dp" finished-at="2019-04-06T08:53:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名长度为15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=123456789012345&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="204" started-at="2019-04-06T08:53:05Z" data-provider="dp" finished-at="2019-04-06T08:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名长度为16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=1234567890123456&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="124" started-at="2019-04-06T08:53:06Z" data-provider="dp" finished-at="2019-04-06T08:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名长度为17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=12345678901234567&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="122" started-at="2019-04-06T08:53:06Z" data-provider="dp" finished-at="2019-04-06T08:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码长度为2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=12]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="195" started-at="2019-04-06T08:53:06Z" data-provider="dp" finished-at="2019-04-06T08:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码长度为3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="185" started-at="2019-04-06T08:53:06Z" data-provider="dp" finished-at="2019-04-06T08:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码长度为4]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=1234]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="180" started-at="2019-04-06T08:53:06Z" data-provider="dp" finished-at="2019-04-06T08:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码长度为15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456789012345]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="188" started-at="2019-04-06T08:53:07Z" data-provider="dp" finished-at="2019-04-06T08:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码长度为16]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=1234567890123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="122" started-at="2019-04-06T08:53:07Z" data-provider="dp" finished-at="2019-04-06T08:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码长度为17]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=12345678901234567]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="121" started-at="2019-04-06T08:53:07Z" data-provider="dp" finished-at="2019-04-06T08:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名存在中文]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test用户名&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="193" started-at="2019-04-06T08:53:07Z" data-provider="dp" finished-at="2019-04-06T08:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名存在特殊符号：&]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4003] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4003] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="126" started-at="2019-04-06T08:53:07Z" data-provider="dp" finished-at="2019-04-06T08:53:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名存在emoji：★]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1★&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="187" started-at="2019-04-06T08:53:07Z" data-provider="dp" finished-at="2019-04-06T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为纯数字]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=123456&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="187" started-at="2019-04-06T08:53:08Z" data-provider="dp" finished-at="2019-04-06T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为纯小写字母]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=abcdef&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="187" started-at="2019-04-06T08:53:08Z" data-provider="dp" finished-at="2019-04-06T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为纯大写字母]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=ABCDEF&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="175" started-at="2019-04-06T08:53:08Z" data-provider="dp" finished-at="2019-04-06T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为纯符号_]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=______&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="187" started-at="2019-04-06T08:53:08Z" data-provider="dp" finished-at="2019-04-06T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为纯符号-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=------&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="180" started-at="2019-04-06T08:53:08Z" data-provider="dp" finished-at="2019-04-06T08:53:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为字母数字和符号_-组成的字符串]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=abCD56_-&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="124" started-at="2019-04-06T08:53:08Z" data-provider="dp" finished-at="2019-04-06T08:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码存在中文]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456密码]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="169" started-at="2019-04-06T08:53:09Z" data-provider="dp" finished-at="2019-04-06T08:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码存在特殊符号：&]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456&]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4003] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4003] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="116" started-at="2019-04-06T08:53:09Z" data-provider="dp" finished-at="2019-04-06T08:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码存在emoji：★]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456★]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="183" started-at="2019-04-06T08:53:09Z" data-provider="dp" finished-at="2019-04-06T08:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为纯数字]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4002] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4002] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="176" started-at="2019-04-06T08:53:09Z" data-provider="dp" finished-at="2019-04-06T08:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为纯小写字母]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=abcdef]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="180" started-at="2019-04-06T08:53:09Z" data-provider="dp" finished-at="2019-04-06T08:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为纯大写字母]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=ABCDEF]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="168" started-at="2019-04-06T08:53:09Z" data-provider="dp" finished-at="2019-04-06T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为纯符号_]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=______]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[28]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="190" started-at="2019-04-06T08:53:10Z" data-provider="dp" finished-at="2019-04-06T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为纯符号-]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=------]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[29]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="175" started-at="2019-04-06T08:53:10Z" data-provider="dp" finished-at="2019-04-06T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为字母数字和符号_-组成的字符串]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=abCD56_-]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[30]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="178" started-at="2019-04-06T08:53:10Z" data-provider="dp" finished-at="2019-04-06T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[多添加一个字段key=value]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test2&password=123456&key=value]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[31]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="122" started-at="2019-04-06T08:53:10Z" data-provider="dp" finished-at="2019-04-06T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为空]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="178" started-at="2019-04-06T08:53:10Z" data-provider="dp" finished-at="2019-04-06T08:53:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为字符串null]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=null&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[33]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="119" started-at="2019-04-06T08:53:10Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=+&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="122" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名前有空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=+test1&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[35]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="120" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名中有空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=te+st1&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[36]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="113" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名后有空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1+&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="124" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为空]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4000]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[38]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="177" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为字符串null]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=null]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[39]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="128" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=+]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[40]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4003] but found [4000]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4003] but found [4000]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="124" started-at="2019-04-06T08:53:11Z" data-provider="dp" finished-at="2019-04-06T08:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码前有空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=+123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[41]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="124" started-at="2019-04-06T08:53:12Z" data-provider="dp" finished-at="2019-04-06T08:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码中有空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123+456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[42]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="140" started-at="2019-04-06T08:53:12Z" data-provider="dp" finished-at="2019-04-06T08:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码后有空格]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456+]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="162" started-at="2019-04-06T08:53:12Z" data-provider="dp" finished-at="2019-04-06T08:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名和密码不匹配]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=admin&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="181" started-at="2019-04-06T08:53:12Z" data-provider="dp" finished-at="2019-04-06T08:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名和密码填反]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=123456&password=test1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="162" started-at="2019-04-06T08:53:12Z" data-provider="dp" finished-at="2019-04-06T08:53:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名大写字母变小写]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=master&password=MASTER]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[46]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4002] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4002] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="181" started-at="2019-04-06T08:53:12Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名小写字母变大写]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=ADMIN&password=admin]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[47]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4002] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4002] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="192" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码大写字母变小写]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=MASTER&password=master]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[48]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4002] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4002] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="FAIL" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="193" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码小写字母变大写]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=admin&password=ADMIN]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4002]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[49]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [4002] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [4002] but found [200]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at my.company.TestLogin.f(TestLogin.java:27)
+at sun.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:483)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="131" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名为超长字符串]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[50]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="122" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码为超长字符串]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4001]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[51]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="132" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[全角输入用户名]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=ｔｅｓｔ１&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[52]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="123" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[全角输入密码]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=１２３４５６]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[53]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="122" started-at="2019-04-06T08:53:13Z" data-provider="dp" finished-at="2019-04-06T08:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名SQl注入]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test%27+or+1%3D1+%23&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[54]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="127" started-at="2019-04-06T08:53:14Z" data-provider="dp" finished-at="2019-04-06T08:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[密码SQL注入]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=test'+or+1%3D1+%23]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[4003]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:my.company.TestLogin@4e76dac]" name="f" duration-ms="277" started-at="2019-04-06T08:53:14Z" data-provider="dp" finished-at="2019-04-06T08:53:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户名和密码正确]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[PostRequest]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://47.100.184.129:8888/Login/LoginPage]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[username=test1&password=123456]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[assertEqual]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[$.status]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:my.company.TestLogin@4e76dac]" name="afterSuite" is-config="true" duration-ms="38" started-at="2019-04-06T08:53:14Z" finished-at="2019-04-06T08:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- my.company.TestLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
